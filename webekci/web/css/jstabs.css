@@ -1,0 +1,41 @@
+.tablink {
+	color: #fff;
+	text-decoration: none;
+}
+.tablink:hover {
+	color: #DFE44F;
+}
+
+p {
+	margin: 0;
+	padding: 5px;
+	line-height: 1.5em;
+	text-align: justify;
+	border: 1px solid #73A405;
+}
+.wrapper {
+	width: 500px;
+	margin: 0 auto;
+}
+.box {
+	background: #fff;
+}
+.boxholder {
+	clear: both;
+}
+.tab {
+	float: left;
+	height: 15px;
+	width: 120px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	vertical-align:middle;
+	cursor: pointer;
+}
+.tabtxt {
+	margin: 0;
+	color: #fff;
+	font-size: 10px;
+	font-weight: bold;
+	padding: 1px 0 0 0;
+}
