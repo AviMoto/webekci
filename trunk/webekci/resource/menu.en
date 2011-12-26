@@ -1,0 +1,22 @@
+_MENU_webekci		Webekci:webekci_manage.php?tab=wbmng
+_MENU_webekci_0		Management:webekci_manage.php?tab=wbmng
+_MENU_webekci_1		DB Management:webekci_manage.php?tab=dbmng
+_MENU_webekci_2		Information:webekci_manage.php?tab=inf
+
+_MENU_rule		Rules:rules.php?tab=rfile
+_MENU_rule_0		Rule Files:rules.php?tab=rfile
+_MENU_rule_1		Rules:rules.php?tab=rule
+_MENU_rule_2		Rule Data Files:rules.php?tab=rdfile
+_MENU_rule_3		Rule Data:rules.php?tab=rdata
+_MENU_rule_4		White List:rules.php?tab=wlist
+
+_MENU_conf		Configurations:configurations.php?tab=mscnf
+_MENU_conf_0		ModSec Confs:configurations.php?tab=mscnf
+_MENU_conf_1		Domains:configurations.php?tab=dmns
+
+_MENU_report		Reports:reports.php?tab=audit
+_MENU_report_0		Audit Records:reports.php?tab=audit
+_MENU_report_1		SourceIP Report:reports.php?tab=sip
+_MENU_report_2		Severity Report:reports.php?tab=severity
+_MENU_report_3		Category Report:reports.php?tab=category
+_MENU_report_4		Rule Report:reports.php?tab=rule

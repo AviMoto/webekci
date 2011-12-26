@@ -1,0 +1,195 @@
+BODY {
+   margin: 0px;
+   color: #000;
+   font-family: verdana, arial;
+   font-size: 10pt;
+   font-style: normal;
+   font-variant: normal;
+}
+HTML {
+
+}
+
+.title { 
+	font-family: Arial; font-size: 14px;
+	font-weight: bold; color: #84A7CD
+	}
+A {
+   text-decoration: none;
+}
+
+a  { color: none }
+a:hover { color: red; }
+
+
+.bar {
+        background-color: #FF8B53;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        font-size: 1px;
+        border: thin outset #8EAFFD;
+        font-style: normal;
+        font-weight: bold;
+}
+.captionbox {
+        background-color: #CC3333;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        font-size: 11px;
+        border: thin outset #336699;
+        font-style: bold;
+        width: 95%;
+}
+.cerceve {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-style: normal;
+        border: 1px solid #336699;
+        background-image: url(form_arka.jpg);
+        background-repeat: repeat-x;
+        background-position: 100% top;
+        background-attachment: scroll;
+}
+.cerceveic {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-style: normal;
+        width: 100%;
+}
+.kutudbolum {
+
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color: #003366;
+        font-size: 11px;
+        font-style: normal;
+        width: 70%;
+}
+.inputbox {
+        font-family: Verdana;
+        font-size: 11px;
+        font-style: normal;
+        border-size: 0px;
+        color: #FFFF;
+	margin-right: 3px;
+        border: 1px solid #336699;
+}
+.sbox {
+        font-family: Verdana;
+        font-size: 11px;
+        font-style: normal;
+        border-size: 0px;
+        color: #FFFF;
+	width: 170px;
+	margin-right: 3px;
+        border: 1px solid #336699;
+}
+.buton {
+        FONT-SIZE: 11px;
+        FONT-FAMILY: verdana;
+        border-size: 1px;
+        background-image: url(form_arka.jpg);
+        background-repeat: repeat-x;
+        background-position: 100% top;
+        background-attachment: scroll;
+        color: #000000;
+        border: thin outset #D7EFFF;
+        font-weight: bold;
+}
+.forumcerceve {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-style: normal;
+        border: 1px solid #336699;
+        background-image: url(form_arka_400.jpg);
+        background-repeat: repeat-x;
+        background-position: 100% top;
+        background-attachment: scroll;
+}
+.baglanti, a.baglanti, a.baglanti:link, a.baglanti:active, a.baglanti:visited {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+}
+a.baglanti:hover {
+        color:  white;
+        text-decoration: underline;
+}
+.site {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        border: 1px solid #CCCCCC;
+}
+.alt{
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color: #006600;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 100;
+}
+.site_logo {
+        background-attachment: fixed;
+        background-image: url(../images/arka_plan.jpg);
+        background-repeat: repeat-x;
+        background-repeat: repeat-x;
+        background-position: 100% top;
+        background-attachment: scroll;
+        padding: 0px;
+        margin: 0%;
+}
+.liste {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        color: #000000;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: normal;
+        border-top: 1px inset #E6EDFF;
+        border-right: 1px solid #E6EDFF;
+        border-bottom: thin none #E6EDFF;
+        border-left: 1px solid #E6EDFF;
+}
+.nav {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        font-style: normal;
+        border-top: 1px inset #E6EDFF;
+        border-right: 1px solid #E6EDFF;
+        border-bottom: thin none #E6EDFF;
+        border-left: 1px solid #E6EDFF;
+
+        background-image: url(form_arka.jpg);
+        background-repeat: repeat-x;
+        background-position: 100% top;
+        background-attachment: scroll;
+        width: 100%;
+	height: 25px;
+}
+
+.nav_footer {
+   background: #6CF;
+   color: #FFF;
+   font-size: 8pt;
+}
+
+.nav_field {
+   font-family: verdana;
+   font-size: 8pt;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.nav_highlight {
+   color:#FFFFFF;
+   border:1px solid #336699;
+   font-weight: bold;
+   padding:1px 4px;
+   margin:1px;
+}
+
+.nav_records {
+   color: #000000;
+   border: thin outset #336699;
+
+   padding:1px 4px;
+   margin:1px;
+}

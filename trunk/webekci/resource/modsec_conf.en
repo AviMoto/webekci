@@ -1,0 +1,42 @@
+SecArgumentSperator		&,;
+SecAuditEngine			On,Off,RelevantOnly
+SecAuditLogParts		A,B,C,D,E,F,G,H,I,J,K,Z
+SecAuditLogType			Serial,Concurrent
+SecCacheTransformations		On,Off
+SecContentInjection		On,Off
+SecCookieFormat			0,1	
+SecDebugLogLevel		0,1,2,3,4,5,6,7,8,9
+SecRequestBodyAccess		On,Off
+SecResponseBodyLimitAction	Reject,ProcessPartial
+SecResponseBodyMimeType		text/plain,text/html
+SecResponseBodyAccess		On,Off
+SecUploadKeepFiles		On,Off,RelevantOnly
+SecRuleInheritance		On,Off
+SecRuleEngine			On,Off,DetectionOnly
+SecPdfProtect			On,Off
+SecPdfProtectMethod		TokenRedirection,ForcedDownload
+SecPdfProtectTimeOut		5,10,15,20,30
+SecAuditLog			#path#
+SecAuditLog2			#path#
+SecAuditLogRelevantStatus	#regexp#
+SecAuditLogStorageDir		#path#
+SecChrootDir			#path#
+SecComponentSignature		#string#
+SecDataDir			#path#
+SecDebugLog			#path#
+SecGeoLookupDb			#path#
+SecGuardianLog			#path#
+SecRequestBodyLimit		#numeric#
+SecRequestBodyNoFilesLimit	#numeric#
+SecRequestBodyInMemoryLimit	#numeric#
+SecResponseBodyLimit		#numeric#
+SecRuleRemoveById		#numeric#
+SecRuleRemoveByMsg		#regexp#
+SecRuleScript			#path#
+SecServerSignature		#string#
+SecTmpDir			#path#
+SecUploadDir			#path#
+SecWebAppId			#string#
+
+
+

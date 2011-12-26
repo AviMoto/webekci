@@ -1,0 +1,14 @@
+<VirtualHost 192.158.2.1:80>
+ServerName www.webguvenligi.org
+ServerAlias www.webguvenligi.net
+ServerAdmin 192.158.2.1
+DocumentRoot "/apache/htdocs/www.webguvenligi.org"
+ErrorLog "logs/webguvenligi/www.webguvenligi.org-error_log"
+CustomLog "logs/webguvenligi/www.webguvenligi.org-access_log" combined
+
+<Directory "/apache/htdocs/www.webguvenligi.org">
+        Options FollowSymLinks
+        AllowOverride All
+</Directory>
+Include ../modsecurityconfs/FirstConfFile.conf
+</VirtualHost>
